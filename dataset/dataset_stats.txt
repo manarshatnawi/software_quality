@@ -1,0 +1,14 @@
+==================================================
+DATASET STATISTICS
+==================================================
+
+Total samples: 2000
+Training samples: 1600
+Testing samples: 400
+Features: 19
+
+Quality Score Statistics:
+  Mean: 61.01
+  Std: 24.91
+  Min: 10.00
+  Max: 98.00

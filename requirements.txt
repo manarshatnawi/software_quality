@@ -1,0 +1,17 @@
+streamlit
+plotly
+google-generativeai
+groq
+tensorflow
+scikit-learn
+pandas
+numpy
+radon
+tree-sitter
+tree-sitter-python
+torch
+torch-geometric
+matplotlib
+tqdm
+toml
+python-dotenv

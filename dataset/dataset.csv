@@ -1,0 +1,1524 @@
+﻿Code,Label
+"x=5
+y=10
+z=x+y
+print(z)",Bad_Naming
+"a=3
+b=4
+c=a*b
+print(c)",Bad_Naming
+"x1=7
+y1=2
+z1=x1-y1
+print(z1)",Clean_Code
+"a1=9
+b1=3
+c1=a1/b1
+print(c1)",Clean_Code
+"x=2
+y=3
+z=x**y
+print(z)",Bad_Naming
+"a=10
+b=5
+if a>b:
+    print(a)",Bad_Naming
+"x=0
+for i in range(3):
+    x+=i
+print(x)",Clean_Code
+"a=1
+b=1
+c=a+b
+print(c)",Bad_Naming
+"x=8
+y=2
+z=x//y
+print(z)",Bad_Naming
+"a=6
+b=2
+c=a%b
+print(c)",Bad_Naming
+"x=5
+if x%2==0:
+    print(""e"")
+else:
+    print(""o"")",Clean_Code
+"a=3
+b=3
+c=a==b
+print(c)",Bad_Naming
+"x=1
+while x<4:
+    print(x)
+    x+=1",Clean_Code
+"a=2
+b=5
+c=min(a,b)
+print(c)",Bad_Naming
+"x=9
+y=4
+z=max(x,y)
+print(z)
+x=5
+y=3
+if x>0:
+    if y>0:
+        print(x+y)",Bad_Naming
+"a=10
+b=2
+if a>b:
+    if a%2==0:
+        print(a//b)",Bad_Naming
+"x=7
+y=1
+if x>y:
+    if y!=0:
+        print(x/y)",Bad_Naming
+"a=4
+b=9
+if a<b:
+    if b%3==0:
+        print(a*b)",Bad_Naming
+"x=6
+y=2
+if x%2==0:
+    if y<5:
+        print(x-y)",Bad_Naming
+"a=3
+b=8
+if b>a:
+    if a!=0:
+        print(b/a)",Bad_Naming
+"x=2
+y=5
+if y>x:
+    if x<3:
+        print(y**x)",Bad_Naming
+"a=12
+b=4
+if a>=b:
+    if b!=0:
+        print(a/b)",Bad_Naming
+"x=9
+y=3
+if x>y:
+    if x%y==0:
+        print(x//y)",Bad_Naming
+"a=1
+b=2
+if b>a:
+    if b<5:
+        print(a+b)",Bad_Naming
+"x=15
+y=5
+if x>=y:
+    if y>0:
+        print(x%y)",Bad_Naming
+"a=20
+b=10
+if a>b:
+    if b%2==0:
+        print(a-b)",Bad_Naming
+"x=8
+y=2
+if x>0:
+    if y!=0:
+        print(x/y)",Bad_Naming
+"a=14
+b=7
+if a>=b:
+    if a%7==0:
+        print(a+b)",Bad_Naming
+"x=11
+y=6
+if x>y:
+    if y%2==0:
+        print(x*y)
+
+        first_number = 5
+second_number = 10
+sum_result = first_number + second_number
+print(sum_result)",Bad_Naming
+"length = 3
+width = 4
+area = length * width
+print(area)",Clean_Code
+"total_marks = 70
+bonus_marks = 5
+final_score = total_marks + bonus_marks
+print(final_score)",Clean_Code
+"temperature_celsius = 25
+temperature_fahrenheit = (temperature_celsius * 9/5) + 32
+print(temperature_fahrenheit)",Clean_Code
+"numbers = [1, 2, 3]
+total = 0
+for number in numbers:
+    total += number
+print(total)",Clean_Code
+"number = 8
+if number % 2 == 0:
+    print(""Even"")
+else:
+    print(""Odd"")",Clean_Code
+"counter = 1
+while counter <= 3:
+    print(counter)
+    counter += 1",Clean_Code
+"value_a = 9
+value_b = 3
+division_result = value_a / value_b
+print(division_result)",Clean_Code
+"name = ""Hussein""
+greeting_message = ""Hello, "" + name
+print(greeting_message)",Clean_Code
+"numbers = [5, 2, 8]
+smallest_number = min(numbers)
+print(smallest_number)",Clean_Code
+"numbers = [5, 2, 8]
+largest_number = max(numbers)
+print(largest_number)",Clean_Code
+"base = 2
+exponent = 3
+power_result = base ** exponent
+print(power_result)",Clean_Code
+"price = 100
+discount = 20
+final_price = price - discount
+print(final_price)",Clean_Code
+"user_age = 18
+is_adult = user_age >= 18
+print(is_adult)",Clean_Code
+"text = ""python""
+uppercase_text = text.upper()
+print(uppercase_text)
+
+x=5
+y=10
+a=x+y
+print(a)",Bad_Naming
+"a=3
+b=4
+c=a*b
+print(c)",Bad_Naming
+"x=9
+y=2
+z=x-y
+print(z)",Bad_Naming
+"a=8
+b=2
+c=a/b
+print(c)",Bad_Naming
+"x=1
+y=2
+z=3
+print(x+y+z)",Bad_Naming
+"a=7
+b=3
+c=a%b
+print(c)",Bad_Naming
+"x=4
+y=2
+z=x**y
+print(z)",Bad_Naming
+"a=10
+b=5
+c=a//b
+print(c)",Bad_Naming
+"x=6
+y=7
+z=x*y+y
+print(z)",Bad_Naming
+"a=2
+b=3
+c=4
+print(a*b*c)",Bad_Naming
+"x=5
+y=3
+z=(x+y)*2
+print(z)",Bad_Naming
+"a=9
+b=1
+c=a-b+5
+print(c)",Bad_Naming
+"x=7
+y=2
+z=x%y+x
+print(z)",Bad_Naming
+"a=6
+b=2
+c=a**b-b
+print(c)",Bad_Naming
+"x=3
+y=3
+z=x*y+y
+print(z)",Bad_Naming
+"a=11
+b=5
+c=a-b*b
+print(c)",Bad_Naming
+"x=8
+y=2
+z=(x/y)+1
+print(z)",Bad_Naming
+"a=4
+b=4
+c=a*b-b
+print(c)",Bad_Naming
+"x=2
+y=5
+z=x+y*3
+print(z)",Bad_Naming
+"a=3
+b=6
+c=a*b+a
+print(c)",Bad_Naming
+"x=10
+y=2
+z=x/y+y
+print(z)",Bad_Naming
+"a=1
+b=9
+c=b-a*2
+print(c)",Bad_Naming
+"x=6
+y=3
+z=x*y*2
+print(z)",Bad_Naming
+"a=5
+b=5
+c=a+b+b
+print(c)",Bad_Naming
+"x=12
+y=4
+z=x//y+3
+print(z)",Bad_Naming
+"a=9
+b=2
+c=a**b+1
+print(c)",Bad_Naming
+"x=7
+y=1
+z=x-y*2
+print(z)",Bad_Naming
+"a=8
+b=3
+c=a%b+4
+print(c)",Bad_Naming
+"x=2
+y=8
+z=y-x+x
+print(z)",Bad_Naming
+"a=10
+b=3
+c=a//b+b
+print(c)",Bad_Naming
+"x=9
+y=9
+z=x+y+y
+print(z)",Bad_Naming
+"a=6
+b=1
+c=a*b+b
+print(c)",Bad_Naming
+"x=3
+y=7
+z=x+y*2
+print(z)",Bad_Naming
+"a=4
+b=2
+c=a**b+2
+print(c)",Bad_Naming
+"x=11
+y=5
+z=x-y+2
+print(z)",Bad_Naming
+"a=2
+b=2
+c=a+b+a+b
+print(c)",Bad_Naming
+"x=6
+y=4
+z=x*y-y
+print(z)",Bad_Naming
+"a=7
+b=3
+c=a*b+3
+print(c)",Bad_Naming
+"x=8
+y=2
+z=x/y+y*2
+print(z)",Bad_Naming
+"a=5
+b=1
+c=a-b+10
+print(c)",Bad_Naming
+"x=4
+y=6
+z=x+y+y
+print(z)",Bad_Naming
+"a=3
+b=9
+c=b-a+a
+print(c)",Bad_Naming
+"x=2
+y=3
+z=x*y+y*2
+print(z)",Bad_Naming
+"a=10
+b=2
+c=a/b+5
+print(c)",Bad_Naming
+"x=7
+y=5
+z=x+y*3
+print(z)",Bad_Naming
+"a=6
+b=6
+c=a*b-b
+print(c)",Bad_Naming
+"x=1
+y=8
+z=y-x*2
+print(z)",Bad_Naming
+"a=9
+b=4
+c=a//b+7
+print(c)",Bad_Naming
+"x=3
+y=3
+z=x**y+1
+print(z)",Bad_Naming
+"a=2
+b=7
+c=b-a*3
+print(c)",Bad_Naming
+"x=5
+y=2
+z=x*y+y+y
+print(z)
+def calculate_sum(numbers):
+    total = 0
+    for number in numbers:
+        total += number
+    return total",Bad_Naming
+"def find_max(numbers):
+    maximum = numbers[0]
+    for number in numbers:
+        if number > maximum:
+            maximum = number
+    return maximum",Clean_Code
+"def is_even(number):
+    return number % 2 == 0",Clean_Code
+"def reverse_string(text):
+    return text[::-1]",Clean_Code
+"def count_vowels(text):
+    vowels = ""aeiou""
+    count = 0
+    for char in text.lower():
+        if char in vowels:
+            count += 1
+    return count",Clean_Code
+"def factorial(n):
+    result = 1
+    for i in range(1, n + 1):
+        result *= i
+    return result",Clean_Code
+"def square_numbers(numbers):
+    return [num ** 2 for num in numbers]",Clean_Code
+"def filter_positive(numbers):
+    return [num for num in numbers if num > 0]",Clean_Code
+"def calculate_average(numbers):
+    if not numbers:
+        return 0
+    return sum(numbers) / len(numbers)",Clean_Code
+"def is_palindrome(text):
+    cleaned = text.replace("" "", """").lower()
+    return cleaned == cleaned[::-1]",Clean_Code
+"def merge_lists(list1, list2):
+    return list1 + list2",Clean_Code
+"def unique_elements(items):
+    return list(set(items))",Clean_Code
+"def count_words(sentence):
+    words = sentence.split()
+    return len(words)",Clean_Code
+"def find_min(numbers):
+    minimum = numbers[0]
+    for number in numbers:
+        if number < minimum:
+            minimum = number
+    return minimum",Clean_Code
+"def multiply_numbers(numbers):
+    result = 1
+    for number in numbers:
+        result *= number
+    return result",Clean_Code
+"def capitalize_words(sentence):
+    return sentence.title()",Clean_Code
+"def remove_duplicates(items):
+    seen = set()
+    result = []
+    for item in items:
+        if item not in seen:
+            seen.add(item)
+            result.append(item)
+    return result",Clean_Code
+"def get_even_numbers(numbers):
+    return [num for num in numbers if num % 2 == 0]",Clean_Code
+"def get_odd_numbers(numbers):
+    return [num for num in numbers if num % 2 != 0]",Clean_Code
+"def string_length(text):
+    return len(text)",Clean_Code
+"def sum_of_digits(number):
+    return sum(int(digit) for digit in str(number))",Clean_Code
+"def check_anagram(str1, str2):
+    return sorted(str1) == sorted(str2)",Clean_Code
+"def flatten_list(nested_list):
+    result = []
+    for sublist in nested_list:
+        result.extend(sublist)
+    return result",Clean_Code
+"def find_common_elements(list1, list2):
+    return list(set(list1) & set(list2))",Clean_Code
+"def generate_range(start, end):
+    return list(range(start, end))",Clean_Code
+"def power(base, exponent):
+    return base ** exponent",Clean_Code
+"def remove_whitespace(text):
+    return text.strip()",Clean_Code
+"def count_character(text, char):
+    return text.count(char)",Clean_Code
+"def swap_values(a, b):
+    return b, a",Clean_Code
+"def find_index(items, target):
+    for index, value in enumerate(items):
+        if value == target:
+            return index
+    return -1",Clean_Code
+"def concatenate_strings(str1, str2):
+    return str1 + str2",Clean_Code
+"def absolute_value(number):
+    return abs(number)",Clean_Code
+"def max_of_three(a, b, c):
+    return max(a, b, c)",Clean_Code
+"def min_of_three(a, b, c):
+    return min(a, b, c)",Clean_Code
+"def convert_to_uppercase(text):
+    return text.upper()",Clean_Code
+"def convert_to_lowercase(text):
+    return text.lower()",Clean_Code
+"def sort_list(items):
+    return sorted(items)",Clean_Code
+"def sum_two_numbers(a, b):
+    return a + b",Clean_Code
+"def subtract_numbers(a, b):
+    return a - b",Clean_Code
+"def multiply_two_numbers(a, b):
+    return a * b",Clean_Code
+"def divide_numbers(a, b):
+    if b == 0:
+        return None
+    return a / b",Clean_Code
+"def check_positive(number):
+    return number > 0",Clean_Code
+"def check_negative(number):
+    return number < 0",Clean_Code
+"def count_list_elements(items):
+    return len(items)",Clean_Code
+"def first_element(items):
+    return items[0] if items else None",Clean_Code
+"def last_element(items):
+    return items[-1] if items else None",Clean_Code
+"def reverse_list(items):
+    return items[::-1]",Clean_Code
+"def contains_element(items, target):
+    return target in items",Clean_Code
+"def get_keys(dictionary):
+    return list(dictionary.keys())",Clean_Code
+"def get_values(dictionary):
+    return list(dictionary.values())",Clean_Code
+"def merge_dictionaries(dict1, dict2):
+    merged = dict1.copy()
+    merged.update(dict2)
+    return merged",Clean_Code
+"def evaluate_score(score):
+    if score >= 50:
+        if score >= 70:
+            if score >= 90:
+                return ""Excellent""
+            else:
+                return ""Very Good""
+        else:
+            return ""Pass""
+    else:
+        return ""Fail""",Clean_Code
+"def categorize_age(age):
+    if age > 0:
+        if age < 18:
+            if age < 13:
+                return ""Child""
+            else:
+                return ""Teen""
+        else:
+            if age < 60:
+                return ""Adult""
+            else:
+                return ""Senior""",Clean_Code
+"def check_triangle(a, b, c):
+    if a + b > c:
+        if a + c > b:
+            if b + c > a:
+                return ""Valid""
+            else:
+                return ""Invalid""
+        else:
+            return ""Invalid""
+    else:
+        return ""Invalid""",Clean_Code
+"def compute_discount(price):
+    if price > 0:
+        if price > 100:
+            if price > 500:
+                return price * 0.7
+            else:
+                return price * 0.8
+        else:
+            return price * 0.9",Clean_Code
+"def filter_data(data):
+    output = []
+    for item in data:
+        if isinstance(item, int):
+            if item > 10:
+                if item % 2 == 0:
+                    output.append(item)
+    return output",Clean_Code
+"def check_login(user, password):
+    if user == ""admin"":
+        if password:
+            if len(password) > 5:
+                return True
+    return False",Clean_Code
+"def analyze_temperature(temp):
+    if temp > 0:
+        if temp > 20:
+            if temp > 30:
+                return ""Hot""
+            else:
+                return ""Warm""
+        else:
+            return ""Cold""",Clean_Code
+"def classify_number(n):
+    if n != 0:
+        if n > 0:
+            if n % 2 == 0:
+                return ""Positive Even""
+            else:
+                return ""Positive Odd""
+        else:
+            if n % 2 == 0:
+                return ""Negative Even""
+            else:
+                return ""Negative Odd""
+    return ""Zero""",Clean_Code
+"def validate_email(email):
+    if ""@"" in email:
+        if ""."" in email:
+            if len(email) > 5:
+                return True
+    return False",Clean_Code
+"def process_string(text):
+    if text:
+        if len(text) > 5:
+            if text.isalpha():
+                return text.upper()
+    return text",Clean_Code
+"def check_access(role):
+    if role == ""user"":
+        if role != ""guest"":
+            if role == ""admin"":
+                return ""Full""
+            else:
+                return ""Limited""
+    return ""None""",Clean_Code
+"def find_max(a, b, c):
+    if a > b:
+        if a > c:
+            return a
+        else:
+            return c
+    else:
+        if b > c:
+            return b
+        else:
+            return c",Clean_Code
+"def calculate_bonus(salary):
+    if salary > 1000:
+        if salary > 5000:
+            if salary > 10000:
+                return salary * 0.2
+            else:
+                return salary * 0.1
+        else:
+            return salary * 0.05",Clean_Code
+"def check_password_strength(password):
+    if len(password) > 6:
+        if any(c.isdigit() for c in password):
+            if any(c.isupper() for c in password):
+                return ""Strong""
+    return ""Weak""",High_Complexity
+"def analyze_list(lst):
+    result = []
+    for x in lst:
+        if x > 0:
+            if x < 50:
+                if x % 5 == 0:
+                    result.append(x)
+    return result",Clean_Code
+"def is_leap_year(year):
+    if year % 4 == 0:
+        if year % 100 == 0:
+            if year % 400 == 0:
+                return True
+            else:
+                return False
+        else:
+            return True
+    return False",Clean_Code
+"def grade_student(score):
+    if score >= 0:
+        if score >= 60:
+            if score >= 85:
+                return ""A""
+            else:
+                return ""B""
+        else:
+            return ""C""",Clean_Code
+"def count_even(nums):
+    count = 0
+    for n in nums:
+        if n % 2 == 0:
+            if n > 10:
+                if n < 100:
+                    count += 1
+    return count",Clean_Code
+"def check_prime(n):
+    if n > 1:
+        for i in range(2, n):
+            if n % i == 0:
+                return False
+        return True
+    return False",Clean_Code
+"def compare_strings(a, b):
+    if a:
+        if b:
+            if len(a) == len(b):
+                return True
+    return False",Clean_Code
+"def process_dict(d):
+    result = {}
+    for k, v in d.items():
+        if isinstance(v, int):
+            if v > 10:
+                if v % 2 == 0:
+                    result[k] = v
+    return result",Clean_Code
+"def check_range(x):
+    if x > 0:
+        if x < 100:
+            if x % 10 == 0:
+                return True
+    return False",Clean_Code
+"def sum_positive(nums):
+    total = 0
+    for n in nums:
+        if n > 0:
+            if n < 50:
+                if n % 2 == 1:
+                    total += n
+    return total",Clean_Code
+"def validate_user(name):
+    if name:
+        if len(name) > 3:
+            if name.isalpha():
+                return True
+    return False",Clean_Code
+"def check_even_odd(n):
+    if n != 0:
+        if n % 2 == 0:
+            if n > 0:
+                return ""Even Positive""
+            else:
+                return ""Even Negative""
+        else:
+            return ""Odd""",Clean_Code
+"def process_values(vals):
+    result = []
+    for v in vals:
+        if v > 10:
+            if v < 100:
+                if v % 3 == 0:
+                    result.append(v)
+    return result",Clean_Code
+"def check_divisibility(n):
+    if n % 2 == 0:
+        if n % 3 == 0:
+            if n % 5 == 0:
+                return True
+    return False",Clean_Code
+"def format_name(name):
+    if name:
+        if len(name) > 2:
+            if name[0].isupper():
+                return name.strip()
+    return name",Clean_Code
+"def calculate_tax(income):
+    if income > 1000:
+        if income > 5000:
+            if income > 10000:
+                return income * 0.3
+            else:
+                return income * 0.2
+        else:
+            return income * 0.1",Clean_Code
+"def validate_number(n):
+    if isinstance(n, int):
+        if n > 0:
+            if n < 100:
+                return True
+    return False",Clean_Code
+"def count_words(words):
+    count = 0
+    for w in words:
+        if len(w) > 3:
+            if w.isalpha():
+                if w[0].islower():
+                    count += 1
+    return count",Clean_Code
+"def analyze_input(x):
+    if x:
+        if isinstance(x, int):
+            if x % 2 == 0:
+                return ""Even""
+    return ""Other""",Clean_Code
+"def check_limits(val):
+    if val > 0:
+        if val < 50:
+            if val % 5 == 0:
+                return True
+    return False",Clean_Code
+"def process_numbers2(nums):
+    result = []
+    for n in nums:
+        if n > 5:
+            if n < 20:
+                if n % 2 == 0:
+                    result.append(n)
+    return result",Clean_Code
+"def check_character(c):
+    if c:
+        if c.isalpha():
+            if c.islower():
+                return ""Lower""
+            else:
+                return ""Upper""",Clean_Code
+"def compute_average(nums):
+    if nums:
+        total = sum(nums)
+        if total > 0:
+            if len(nums) > 0:
+                return total / len(nums)",Clean_Code
+"def validate_list(lst):
+    if lst:
+        if isinstance(lst, list):
+            if len(lst) > 2:
+                return True
+    return False",Clean_Code
+"def check_conditions(x):
+    if x > 0:
+        if x % 2 == 0:
+            if x % 3 == 0:
+                return True
+    return False",Clean_Code
+"def filter_strings(strings):
+    result = []
+    for s in strings:
+        if len(s) > 4:
+            if s.isalpha():
+                if s[0].isupper():
+                    result.append(s)
+    return result",Clean_Code
+"def analyze_numbers(nums):
+    result = []
+    for n in nums:
+        if n > 0:
+            if n < 100:
+                if n % 10 == 0:
+                    result.append(n)
+    return result",Clean_Code
+"def check_value(x):
+    if x:
+        if x > 10:
+            if x < 20:
+                return True
+    return False",Clean_Code
+"def process_input(x):
+    if x:
+        if isinstance(x, str):
+            if len(x) > 5:
+                return x.lower()
+    return x",Clean_Code
+"def validate_age(age):
+    if age > 0:
+        if age < 100:
+            if age % 5 == 0:
+                return True
+    return False",Clean_Code
+"def count_valid(nums):
+    count = 0
+    for n in nums:
+        if n > 0:
+            if n < 50:
+                if n % 2 == 0:
+                    count += 1
+    return count",Clean_Code
+"def check_status(status):
+    if status:
+        if status == ""active"":
+            if len(status) > 3:
+                return True
+    return False",Clean_Code
+"def evaluate_data(data):
+    result = []
+    for d in data:
+        if d > 10:
+            if d < 100:
+                if d % 4 == 0:
+                    result.append(d)
+    return result",Clean_Code
+"def validate_score(score):
+    if score >= 0:
+        if score <= 100:
+            if score % 10 == 0:
+                return True
+    return False",Clean_Code
+"def func2(data):
+    total = 0
+    if data:
+        if isinstance(data, list):
+            if len(data) > 2:
+                for x in data:
+                    if isinstance(x, int) and (x > 5 or x < 0):
+                        total += x
+    return total",High_Complexity
+"def func3(nums):
+    res = []
+    if nums:
+        if all(isinstance(n, int) for n in nums):
+            if len(nums) > 3:
+                for n in nums:
+                    if n > 0 and (n % 3 == 0 or n % 5 == 0):
+                        res.append(n)
+    return res",High_Complexity
+"def func4(values):
+    count = 0
+    if values:
+        if isinstance(values, list):
+            if len(values) > 1:
+                for v in values:
+                    if isinstance(v, int) and (v % 2 == 1 or v > 20):
+                        count += 1
+    return count",High_Complexity
+"def func5(lst):
+    result = []
+    if lst:
+        if isinstance(lst, list):
+            if len(lst) > 2:
+                for x in lst:
+                    if isinstance(x, int) and (x < 0 or x % 4 == 0):
+                        result.append(x)
+    return result",High_Complexity
+"def func6(data):
+    total = 0
+    if data:
+        if any(isinstance(x, int) for x in data):
+            if len(data) > 3:
+                for x in data:
+                    if isinstance(x, int) and (x > 10 or x % 2 == 0):
+                        total += x
+    return total",High_Complexity
+"def func7(nums):
+    res = []
+    if nums:
+        if isinstance(nums, list):
+            if len(nums) > 2:
+                for n in nums:
+                    if n > 0 and (n % 2 == 0 or n % 7 == 0):
+                        res.append(n)
+    return res",High_Complexity
+"def func8(data):
+    count = 0
+    if data:
+        if isinstance(data, list):
+            if len(data) > 0:
+                for d in data:
+                    if isinstance(d, int) and (d > 5 or d % 3 == 0):
+                        count += d
+    return count",High_Complexity
+"def func9(values):
+    result = []
+    if values:
+        if len(values) > 1:
+            if all(isinstance(v, int) for v in values):
+                for v in values:
+                    if v > 0 and (v % 2 == 0 or v % 5 == 0):
+                        result.append(v)
+    return result",High_Complexity
+"def func10(data):
+    total = 0
+    if data:
+        if isinstance(data, list):
+            if len(data) > 2:
+                for x in data:
+                    if isinstance(x, int) and (x < 0 or x > 10):
+                        total += x
+    return total",High_Complexity
+"def func11(nums):
+    res = []
+    if nums:
+        if len(nums) > 1:
+            if all(isinstance(n, int) for n in nums):
+                for n in nums:
+                    if n > 2 and (n % 2 == 0 or n % 3 == 0):
+                        res.append(n)
+    return res",High_Complexity
+"def func12(data):
+    count = 0
+    if data:
+        if isinstance(data, list):
+            if len(data) > 0:
+                for d in data:
+                    if isinstance(d, int) and (d > 10 or d % 2 == 1):
+                        count += 1
+    return count",High_Complexity
+"def func13(lst):
+    result = []
+    if lst:
+        if isinstance(lst, list):
+            if len(lst) > 2:
+                for x in lst:
+                    if isinstance(x, int) and (x % 2 == 0 or x % 9 == 0):
+                        result.append(x)
+    return result",High_Complexity
+"def func14(data):
+    total = 0
+    if data:
+        if any(isinstance(x, int) for x in data):
+            if len(data) > 1:
+                for x in data:
+                    if isinstance(x, int) and (x > 3 or x < -3):
+                        total += x
+    return total",High_Complexity
+"def func15(nums):
+    res = []
+    if nums:
+        if isinstance(nums, list):
+            if len(nums) > 2:
+                for n in nums:
+                    if n > 0 and (n % 2 == 0 or n % 11 == 0):
+                        res.append(n)
+    return res",High_Complexity
+"def func16(data):
+    count = 0
+    if data:
+        if isinstance(data, list):
+            if len(data) > 0:
+                for d in data:
+                    if isinstance(d, int) and (d > 7 or d % 4 == 0):
+                        count += d
+    return count",High_Complexity
+"def func17(values):
+    result = []
+    if values:
+        if len(values) > 1:
+            if all(isinstance(v, int) for v in values):
+                for v in values:
+                    if v > 0 and (v % 3 == 0 or v % 7 == 0):
+                        result.append(v)
+    return result",High_Complexity
+"def func18(data):
+    total = 0
+    if data:
+        if isinstance(data, list):
+            if len(data) > 2:
+                for x in data:
+                    if isinstance(x, int) and (x < 0 or x % 6 == 0):
+                        total += x
+    return total",High_Complexity
+"def func19(nums):
+    res = []
+    if nums:
+        if len(nums) > 1:
+            if all(isinstance(n, int) for n in nums):
+                for n in nums:
+                    if n > 5 and (n % 2 == 0 or n % 3 == 0):
+                        res.append(n)
+    return res",High_Complexity
+"def func20(data):
+    count = 0
+    if data:
+        if isinstance(data, list):
+            if len(data) > 0:
+                for d in data:
+                    if isinstance(d, int) and (d > 10 or d % 5 == 0):
+                        count += 1
+    return count",High_Complexity
+"def func21(lst):
+    result = []
+    if lst:
+        if isinstance(lst, list):
+            if len(lst) > 2:
+                for x in lst:
+                    if isinstance(x, int) and (x % 2 == 0 or x % 13 == 0):
+                        result.append(x)
+    return result",High_Complexity
+"def func22(data):
+    total = 0
+    if data:
+        if any(isinstance(x, int) for x in data):
+            if len(data) > 1:
+                for x in data:
+                    if isinstance(x, int) and (x > 4 or x < -4):
+                        total += x
+    return total",High_Complexity
+"def func23(nums):
+    res = []
+    if nums:
+        if isinstance(nums, list):
+            if len(nums) > 2:
+                for n in nums:
+                    if n > 0 and (n % 2 == 0 or n % 17 == 0):
+                        res.append(n)
+    return res",High_Complexity
+"def func24(data):
+    count = 0
+    if data:
+        if isinstance(data, list):
+            if len(data) > 0:
+                for d in data:
+                    if isinstance(d, int) and (d > 6 or d % 3 == 0):
+                        count += d
+    return count",High_Complexity
+"def func25(values):
+    result = []
+    if values:
+        if len(values) > 1:
+            if all(isinstance(v, int) for v in values):
+                for v in values:
+                    if v > 0 and (v % 4 == 0 or v % 9 == 0):
+                        result.append(v)
+    return result",High_Complexity
+"def func26(data):
+    total = 0
+    if data:
+        if isinstance(data, list):
+            if len(data) > 2:
+                for x in data:
+                    if isinstance(x, int) and (x < 0 or x % 8 == 0):
+                        total += x
+    return total",High_Complexity
+"def func27(nums):
+    res = []
+    if nums:
+        if len(nums) > 1:
+            if all(isinstance(n, int) for n in nums):
+                for n in nums:
+                    if n > 3 and (n % 2 == 0 or n % 5 == 0):
+                        res.append(n)
+    return res",High_Complexity
+"def func28(data):
+    count = 0
+    if data:
+        if isinstance(data, list):
+            if len(data) > 0:
+                for d in data:
+                    if isinstance(d, int) and (d > 9 or d % 2 == 1):
+                        count += 1
+    return count",High_Complexity
+"def func29(lst):
+    result = []
+    if lst:
+        if isinstance(lst, list):
+            if len(lst) > 2:
+                for x in lst:
+                    if isinstance(x, int) and (x % 2 == 0 or x % 19 == 0):
+                        result.append(x)
+    return result",High_Complexity
+"def func30(data):
+    total = 0
+    if data:
+        if any(isinstance(x, int) for x in data):
+            if len(data) > 1:
+                for x in data:
+                    if isinstance(x, int) and (x > 8 or x < -8):
+                        total += x
+    return total",High_Complexity
+"def func31(nums):
+    res = []
+    if nums:
+        if isinstance(nums, list):
+            if len(nums) > 2:
+                for n in nums:
+                    if n > 0 and (n % 2 == 0 or n % 23 == 0):
+                        res.append(n)
+    return res",High_Complexity
+"def func32(data):
+    count = 0
+    if data:
+        if isinstance(data, list):
+            if len(data) > 0:
+                for d in data:
+                    if isinstance(d, int) and (d > 11 or d % 4 == 0):
+                        count += d
+    return count",High_Complexity
+"def func33(values):
+    result = []
+    if values:
+        if len(values) > 1:
+            if all(isinstance(v, int) for v in values):
+                for v in values:
+                    if v > 0 and (v % 6 == 0 or v % 7 == 0):
+                        result.append(v)
+    return result",High_Complexity
+"def func34(data):
+    total = 0
+    if data:
+        if isinstance(data, list):
+            if len(data) > 2:
+                for x in data:
+                    if isinstance(x, int) and (x < 0 or x % 10 == 0):
+                        total += x
+    return total",High_Complexity
+"def func35(nums):
+    res = []
+    if nums:
+        if len(nums) > 1:
+            if all(isinstance(n, int) for n in nums):
+                for n in nums:
+                    if n > 12 and (n % 2 == 0 or n % 3 == 0):
+                        res.append(n)
+    return res",High_Complexity
+"def func36(data):
+    count = 0
+    if data:
+        if isinstance(data, list):
+            if len(data) > 0:
+                for d in data:
+                    if isinstance(d, int) and (d > 15 or d % 5 == 0):
+                        count += 1
+    return count",High_Complexity
+"def func37(lst):
+    result = []
+    if lst:
+        if isinstance(lst, list):
+            if len(lst) > 2:
+                for x in lst:
+                    if isinstance(x, int) and (x % 2 == 0 or x % 29 == 0):
+                        result.append(x)
+    return result",High_Complexity
+"def func38(data):
+    total = 0
+    if data:
+        if any(isinstance(x, int) for x in data):
+            if len(data) > 1:
+                for x in data:
+                    if isinstance(x, int) and (x > 14 or x < -14):
+                        total += x
+    return total",High_Complexity
+"def func39(nums):
+    res = []
+    if nums:
+        if isinstance(nums, list):
+            if len(nums) > 2:
+                for n in nums:
+                    if n > 0 and (n % 2 == 0 or n % 31 == 0):
+                        res.append(n)
+    return res",High_Complexity
+"def func40(data):
+    count = 0
+    if data:
+        if isinstance(data, list):
+            if len(data) > 0:
+                for d in data:
+                    if isinstance(d, int) and (d > 20 or d % 3 == 0):
+                        count += d
+    return count",High_Complexity
+"def func41(values):
+    result = []
+    if values:
+        if len(values) > 1:
+            if all(isinstance(v, int) for v in values):
+                for v in values:
+                    if v > 0 and (v % 8 == 0 or v % 9 == 0):
+                        result.append(v)
+    return result",High_Complexity
+"def func42(data):
+    total = 0
+    if data:
+        if isinstance(data, list):
+            if len(data) > 2:
+                for x in data:
+                    if isinstance(x, int) and (x < 0 or x % 12 == 0):
+                        total += x
+    return total",High_Complexity
+"def func43(nums):
+    res = []
+    if nums:
+        if len(nums) > 1:
+            if all(isinstance(n, int) for n in nums):
+                for n in nums:
+                    if n > 18 and (n % 2 == 0 or n % 3 == 0):
+                        res.append(n)
+    return res",High_Complexity
+"def func44(data):
+    count = 0
+    if data:
+        if isinstance(data, list):
+            if len(data) > 0:
+                for d in data:
+                    if isinstance(d, int) and (d > 25 or d % 5 == 0):
+                        count += 1
+    return count",High_Complexity
+"def func45(lst):
+    result = []
+    if lst:
+        if isinstance(lst, list):
+            if len(lst) > 2:
+                for x in lst:
+                    if isinstance(x, int) and (x % 2 == 0 or x % 37 == 0):
+                        result.append(x)
+    return result",High_Complexity
+"def func46(data):
+    total = 0
+    if data:
+        if any(isinstance(x, int) for x in data):
+            if len(data) > 1:
+                for x in data:
+                    if isinstance(x, int) and (x > 30 or x < -30):
+                        total += x
+    return total",High_Complexity
+"def func47(nums):
+    res = []
+    if nums:
+        if isinstance(nums, list):
+            if len(nums) > 2:
+                for n in nums:
+                    if n > 0 and (n % 2 == 0 or n % 41 == 0):
+                        res.append(n)
+    return res",High_Complexity
+"def func48(data):
+    count = 0
+    if data:
+        if isinstance(data, list):
+            if len(data) > 0:
+                for d in data:
+                    if isinstance(d, int) and (d > 35 or d % 3 == 0):
+                        count += d
+    return count",High_Complexity
+"def func49(values):
+    result = []
+    if values:
+        if len(values) > 1:
+            if all(isinstance(v, int) for v in values):
+                for v in values:
+                    if v > 0 and (v % 10 == 0 or v % 11 == 0):
+                        result.append(v)
+    return result",High_Complexity
+"def func50(data):
+    total = 0
+    if data:
+        if isinstance(data, list):
+            if len(data) > 2:
+                for x in data:
+                    if isinstance(x, int) and (x < 0 or x % 14 == 0):
+                        total += x
+    return total",High_Complexity
+"def func51(nums):
+    res = []
+    if nums:
+        if len(nums) > 1:
+            if all(isinstance(n, int) for n in nums):
+                for n in nums:
+                    if n > 22 and (n % 2 == 0 or n % 3 == 0):
+                        res.append(n)
+    return res",High_Complexity
+"def func52(data):
+    count = 0
+    if data:
+        if isinstance(data, list):
+            if len(data) > 0:
+                for d in data:
+                    if isinstance(d, int) and (d > 40 or d % 5 == 0):
+                        count += 1
+    return count",High_Complexity
+"def func53(lst):
+    result = []
+    if lst:
+        if isinstance(lst, list):
+            if len(lst) > 2:
+                for x in lst:
+                    if isinstance(x, int) and (x % 2 == 0 or x % 43 == 0):
+                        result.append(x)
+    return result",High_Complexity
+"def func54(data):
+    total = 0
+    if data:
+        if any(isinstance(x, int) for x in data):
+            if len(data) > 1:
+                for x in data:
+                    if isinstance(x, int) and (x > 45 or x < -45):
+                        total += x
+    return total",High_Complexity
+"def func55(nums):
+    res = []
+    if nums:
+        if isinstance(nums, list):
+            if len(nums) > 2:
+                for n in nums:
+                    if n > 0 and (n % 2 == 0 or n % 47 == 0):
+                        res.append(n)
+    return res",High_Complexity
+"def func56(data):
+    count = 0
+    if data:
+        if isinstance(data, list):
+            if len(data) > 0:
+                for d in data:
+                    if isinstance(d, int) and (d > 50 or d % 3 == 0):
+                        count += d
+    return count",High_Complexity
+"def func57(values):
+    result = []
+    if values:
+        if len(values) > 1:
+            if all(isinstance(v, int) for v in values):
+                for v in values:
+                    if v > 0 and (v % 12 == 0 or v % 13 == 0):
+                        result.append(v)
+    return result",High_Complexity
+"def func58(data):
+    total = 0
+    if data:
+        if isinstance(data, list):
+            if len(data) > 2:
+                for x in data:
+                    if isinstance(x, int) and (x < 0 or x % 16 == 0):
+                        total += x
+    return total",High_Complexity
+"def func59(nums):
+    res = []
+    if nums:
+        if len(nums) > 1:
+            if all(isinstance(n, int) for n in nums):
+                for n in nums:
+                    if n > 28 and (n % 2 == 0 or n % 3 == 0):
+                        res.append(n)
+    return res",High_Complexity
+"def func60(data):
+    count = 0
+    if data:
+        if isinstance(data, list):
+            if len(data) > 0:
+                for d in data:
+                    if isinstance(d, int) and (d > 55 or d % 5 == 0):
+                        count += 1
+    return count",High_Complexity
+"def func61(lst):
+    result = []
+    if lst:
+        if isinstance(lst, list):
+            if len(lst) > 2:
+                for x in lst:
+                    if isinstance(x, int) and (x % 2 == 0 or x % 53 == 0):
+                        result.append(x)
+    return result",High_Complexity
+"def func62(data):
+    total = 0
+    if data:
+        if any(isinstance(x, int) for x in data):
+            if len(data) > 1:
+                for x in data:
+                    if isinstance(x, int) and (x > 60 or x < -60):
+                        total += x
+    return total",High_Complexity
+"def func63(nums):
+    res = []
+    if nums:
+        if isinstance(nums, list):
+            if len(nums) > 2:
+                for n in nums:
+                    if n > 0 and (n % 2 == 0 or n % 59 == 0):
+                        res.append(n)
+    return res",High_Complexity
+"def func64(data):
+    count = 0
+    if data:
+        if isinstance(data, list):
+            if len(data) > 0:
+                for d in data:
+                    if isinstance(d, int) and (d > 65 or d % 3 == 0):
+                        count += d
+    return count",High_Complexity
+"def func65(values):
+    result = []
+    if values:
+        if len(values) > 1:
+            if all(isinstance(v, int) for v in values):
+                for v in values:
+                    if v > 0 and (v % 14 == 0 or v % 15 == 0):
+                        result.append(v)
+    return result",High_Complexity
+"def func66(data):
+    total = 0
+    if data:
+        if isinstance(data, list):
+            if len(data) > 2:
+                for x in data:
+                    if isinstance(x, int) and (x < 0 or x % 18 == 0):
+                        total += x
+    return total",High_Complexity
+"def func67(nums):
+    res = []
+    if nums:
+        if len(nums) > 1:
+            if all(isinstance(n, int) for n in nums):
+                for n in nums:
+                    if n > 34 and (n % 2 == 0 or n % 3 == 0):
+                        res.append(n)
+    return res",High_Complexity
+"def func68(data):
+    count = 0
+    if data:
+        if isinstance(data, list):
+            if len(data) > 0:
+                for d in data:
+                    if isinstance(d, int) and (d > 70 or d % 5 == 0):
+                        count += 1
+    return count",High_Complexity
+"def func69(lst):
+    result = []
+    if lst:
+        if isinstance(lst, list):
+            if len(lst) > 2:
+                for x in lst:
+                    if isinstance(x, int) and (x % 2 == 0 or x % 61 == 0):
+                        result.append(x)
+    return result",High_Complexity
+"def func70(data):
+    total = 0
+    if data:
+        if any(isinstance(x, int) for x in data):
+            if len(data) > 1:
+                for x in data:
+                    if isinstance(x, int) and (x > 75 or x < -75):
+                        total += x
+    return total",High_Complexity

@@ -1,0 +1,9 @@
+==================================================
+MODEL PERFORMANCE
+==================================================
+
+Mean Absolute Error (MAE): 7.6413
+Mean Squared Error (MSE): 84.9947
+Root Mean Squared Error: 9.2193
+R² Score: 0.8728
+Best Epoch: 19
