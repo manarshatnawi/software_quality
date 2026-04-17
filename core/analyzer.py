@@ -16,12 +16,14 @@ from typing import Any
 from groq import Groq
 
 # استيراد دالة التنبؤ من النموذج المحلي (Deep Learning)
+# استيراد دالة التنبؤ من النموذج المحلي (Deep Learning)
 try:
-    from .ml_integration import dl_predictor, gnn_classifier
-    from .metrics_extractor import process_all_codes
-except ImportError:
     from ml_integration import dl_predictor, gnn_classifier
     from metrics_extractor import process_all_codes
+except ImportError:
+    # في حال فشل الاستدعاء المباشر، جرب الاستدعاء النسبي
+    from .ml_integration import dl_predictor, gnn_classifier
+    from .metrics_extractor import process_all_codes
 
 
 # ─────────────────────────────────────────────────────────────────────
